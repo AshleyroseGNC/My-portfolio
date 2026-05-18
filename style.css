@@ -362,3 +362,133 @@ body::after {
     color: #fff;
     box-shadow: 0 8px 22px rgba(255, 79, 163, 0.35);
 }
+
+}
+
+/* ========================
+   RESPONSIVE — MOBILE (max 768px)
+======================== */
+@media (max-width: 768px) {
+    .header {
+        padding: 16px 5%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 5% 40px;
+        min-height: auto;
+        gap: 36px;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 34px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .btn-box {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .home-img {
+        order: -1;
+    }
+
+    .home-img img {
+        width: 240px;
+        border-radius: 20px;
+    }
+
+    .about h2,
+    .projects h2,
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-box {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .about,
+    .projects,
+    .contact {
+        padding: 60px 5%;
+    }
+}
+
+/* ========================
+   RESPONSIVE — SMALL MOBILE (max 480px)
+======================== */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 22px;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 17px;
+    }
+
+    .btn-box a {
+        width: 138px;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    .home-img img {
+        width: 200px;
+    }
+
+    .contact-icons a {
+        width: 44px;
+        height: 44px;
+        font-size: 20px;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}

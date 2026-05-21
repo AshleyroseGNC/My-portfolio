@@ -4,6 +4,7 @@
 *{
     margin:0;
     padding:0;
+    padding:0;
     box-sizing:border-box;
     font-family:Arial, sans-serif;
     scroll-behavior:smooth;
@@ -32,7 +33,8 @@ body{
     top:0;
     left:0;
     width:100%;
-    padding:35px 8%;
+
+    padding:22px 8%;
 
     display:flex;
     justify-content:space-between;
@@ -48,21 +50,21 @@ body{
 .logo{
     color:#fff;
     text-decoration:none;
-    font-size:55px;
+    font-size:34px;
     font-weight:bold;
 }
 
 /* NAVBAR */
 .navbar{
     display:flex;
-    gap:45px;
+    gap:25px;
 }
 
 .navbar a{
     color:#fff;
     text-decoration:none;
-    font-size:28px;
-    font-weight:bold;
+    font-size:18px;
+    font-weight:600;
     transition:.3s;
 }
 
@@ -80,77 +82,70 @@ body{
     justify-content:center;
     align-items:center;
 
-    gap:140px;
+    gap:80px;
 
-    padding:220px 8% 120px;
+    padding:120px 8% 80px;
     flex-wrap:wrap;
 }
 
-/* =========================
-   HOME CONTENT
-========================= */
+/* HOME CONTENT */
 .home-content{
     flex:1;
-    min-width:500px;
+    min-width:300px;
 }
 
 .home-content h1{
-    font-size:110px;
-    margin-bottom:25px;
+    font-size:52px;
+    margin-bottom:15px;
     line-height:1.2;
-    font-weight:bold;
 }
 
 .home-content h3{
-    font-size:55px;
+    font-size:26px;
     color:#7286A0;
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 
 .home-content p{
-    font-size:28px;
-    line-height:1.9;
-    max-width:900px;
-    margin-bottom:40px;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:25px;
+    max-width:650px;
 }
 
-/* =========================
-   BUTTON
-========================= */
+/* BUTTON */
 .btn-box a{
     display:inline-block;
 
-    padding:22px 50px;
+    padding:12px 28px;
 
     background:#7286A0;
     color:#fff;
 
-    border-radius:50px;
+    border-radius:30px;
     text-decoration:none;
 
-    font-size:24px;
-    font-weight:bold;
+    font-size:16px;
+    font-weight:600;
 
     transition:.3s;
 }
 
 .btn-box a:hover{
     background:#FCB0B3;
-    transform:translateY(-5px);
+    transform:translateY(-3px);
 }
 
-/* =========================
-   SOCIAL ICONS
-========================= */
+/* SOCIAL ICONS */
 .social-icons{
     display:flex;
-    gap:25px;
-    margin-top:45px;
+    gap:15px;
+    margin-top:25px;
 }
 
 .social-icons a{
-    width:80px;
-    height:80px;
+    width:45px;
+    height:45px;
 
     display:flex;
     justify-content:center;
@@ -162,7 +157,7 @@ body{
     border-radius:50%;
     text-decoration:none;
 
-    font-size:38px;
+    font-size:20px;
 
     transition:.3s;
 }
@@ -170,13 +165,9 @@ body{
 .social-icons a:hover{
     background:#7286A0;
     color:#fff;
-
-    transform:translateY(-5px);
 }
 
-/* =========================
-   IMAGE
-========================= */
+/* IMAGE */
 .home-img{
     flex:1;
     display:flex;
@@ -184,20 +175,11 @@ body{
 }
 
 .home-img img{
-    width:650px;
+    width:350px;
     max-width:100%;
 
-    border-radius:40px;
-
-    object-fit:cover;
-
-    box-shadow:0 20px 45px rgba(0,0,0,0.3);
-
-    transition:.4s;
-}
-
-.home-img img:hover{
-    transform:scale(1.03);
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.25);
 }
 
 /* =========================
@@ -206,7 +188,7 @@ body{
 .about,
 .projects,
 .contact{
-    padding:140px 8%;
+    padding:90px 8%;
     text-align:center;
 }
 
@@ -214,19 +196,17 @@ body{
 .about h2,
 .projects h2,
 .contact h2{
-    font-size:75px;
-    margin-bottom:40px;
+    font-size:42px;
+    margin-bottom:20px;
 }
 
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT */
 .about p{
-    max-width:1200px;
+    max-width:850px;
     margin:auto;
 
-    font-size:28px;
-    line-height:2;
+    font-size:18px;
+    line-height:1.8;
 }
 
 /* =========================
@@ -237,80 +217,74 @@ body{
     justify-content:center;
     flex-wrap:wrap;
 
-    gap:40px;
-    margin-top:70px;
+    gap:25px;
+    margin-top:40px;
 }
 
 .project-box{
-    width:500px;
+    width:300px;
 
     background:rgba(255,255,255,0.18);
 
-    padding:50px;
-    border-radius:30px;
+    padding:25px;
+    border-radius:20px;
 
     backdrop-filter:blur(10px);
 
-    transition:.4s;
+    transition:.3s;
 }
 
 .project-box:hover{
-    transform:translateY(-10px);
+    transform:translateY(-8px);
 }
 
 .project-box h3{
-    font-size:38px;
-    margin-bottom:20px;
+    font-size:22px;
+    margin-bottom:10px;
 }
 
 .project-box p{
-    line-height:1.9;
-    margin-bottom:30px;
-    font-size:22px;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:20px;
 }
 
 /* PROJECT BUTTON */
 .project-btn{
     display:inline-block;
 
-    padding:18px 35px;
+    padding:10px 20px;
 
     background:#7286A0;
     color:#fff;
 
-    border-radius:40px;
+    border-radius:25px;
     text-decoration:none;
 
-    font-size:22px;
-    font-weight:bold;
-
-    transition:.3s;
+    font-size:14px;
 }
 
 .project-btn:hover{
     background:#FCB0B3;
 }
 
-/* =========================
-   CONTACT
-========================= */
+/* CONTACT */
 .contact p{
-    font-size:28px;
-    margin-top:20px;
+    font-size:18px;
+    margin-top:15px;
 }
 
 /* CONTACT ICONS */
 .contact-icons{
     display:flex;
     justify-content:center;
-    gap:25px;
-
-    margin-top:45px;
+    gap:15px;
+    margin-top:25px;
 }
 
 .contact-icons a{
-    width:85px;
-    height:85px;
+    width:50px;
+    height:50px;
 
     display:flex;
     justify-content:center;
@@ -322,7 +296,7 @@ body{
     border-radius:50%;
     text-decoration:none;
 
-    font-size:40px;
+    font-size:22px;
 
     transition:.3s;
 }
@@ -330,122 +304,41 @@ body{
 .contact-icons a:hover{
     background:#7286A0;
     color:#fff;
-
-    transform:translateY(-5px);
 }
 
 /* =========================
-   TABLET
+   RESPONSIVE
 ========================= */
-@media (max-width:991px){
+@media (max-width:768px){
 
     .home{
         flex-direction:column-reverse;
         text-align:center;
-        gap:70px;
-    }
-
-    .home-content{
-        min-width:100%;
+        gap:50px;
     }
 
     .home-content h1{
-        font-size:70px;
+        font-size:36px;
     }
 
     .home-content h3{
-        font-size:38px;
-    }
-
-    .home-content p{
-        font-size:22px;
-    }
-
-    .home-img img{
-        width:420px;
-    }
-
-    .social-icons{
-        justify-content:center;
-    }
-
-    .btn-box{
-        display:flex;
-        justify-content:center;
-    }
-
-    .about h2,
-    .projects h2,
-    .contact h2{
-        font-size:55px;
-    }
-}
-
-/* =========================
-   MOBILE
-========================= */
-@media (max-width:768px){
-
-    .header{
-        flex-direction:column;
-        gap:20px;
-    }
-
-    .logo{
-        font-size:38px;
-    }
-
-    .navbar{
-        gap:20px;
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    .navbar a{
         font-size:20px;
     }
 
-    .home{
-        padding:200px 6% 100px;
-    }
-
-    .home-content h1{
-        font-size:50px;
-    }
-
-    .home-content h3{
-        font-size:28px;
-    }
-
     .home-content p{
-        font-size:18px;
+        font-size:16px;
     }
 
     .home-img img{
-        width:300px;
-    }
-
-    .social-icons a,
-    .contact-icons a{
-        width:60px;
-        height:60px;
-        font-size:28px;
-    }
-
-    .about h2,
-    .projects h2,
-    .contact h2{
-        font-size:42px;
-    }
-
-    .about p,
-    .project-box p,
-    .contact p{
-        font-size:18px;
+        width:260px;
     }
 
     .project-box{
         width:100%;
-        padding:35px;
+    }
+
+    .navbar{
+        flex-wrap:wrap;
+        justify-content:center;
     }
 }

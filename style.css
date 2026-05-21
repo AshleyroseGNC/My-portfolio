@@ -1,16 +1,19 @@
-/* RESET */
+/* =========================
+   RESET
+========================= */
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+    font-family:Arial, sans-serif;
     scroll-behavior:smooth;
 }
 
-/* BODY */
+/* =========================
+   BODY
+========================= */
 body{
-    background:
-    linear-gradient(
+    background:linear-gradient(
         135deg,
         #99EDC3,
         #FCB0B3,
@@ -21,141 +24,185 @@ body{
     overflow-x:hidden;
 }
 
-/* HEADER */
+/* =========================
+   HEADER
+========================= */
 .header{
-    width:100%;
-    padding:20px 10%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
     position:fixed;
     top:0;
     left:0;
-    z-index:1000;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
     background:rgba(255,255,255,0.15);
     backdrop-filter:blur(12px);
+
+    z-index:1000;
 }
 
 /* LOGO */
 .logo{
-    font-size:28px;
     color:#fff;
     text-decoration:none;
-    font-weight:700;
+    font-size:30px;
+    font-weight:bold;
 }
 
 /* NAVBAR */
 .navbar{
     display:flex;
-    gap:20px;
+    gap:25px;
 }
 
 .navbar a{
-    text-decoration:none;
     color:#fff;
-    font-weight:500;
-    transition:0.3s;
+    text-decoration:none;
+    font-size:17px;
+    transition:.3s;
 }
 
 .navbar a:hover{
     color:#7286A0;
 }
 
-/* HOME */
+/* =========================
+   HOME SECTION
+========================= */
 .home{
     min-height:100vh;
+
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
-    padding:120px 10% 60px;
-    gap:60px;
+
+    gap:100px;
+
+    padding:140px 8% 80px;
     flex-wrap:wrap;
 }
 
-/* HOME CONTENT */
+/* =========================
+   HOME CONTENT
+========================= */
 .home-content{
     flex:1;
-    min-width:300px;
+    min-width:320px;
 }
 
 .home-content h1{
-    font-size:55px;
-    margin-bottom:10px;
+    font-size:65px;
+    margin-bottom:15px;
+    line-height:1.2;
 }
 
 .home-content h3{
+    font-size:30px;
     color:#7286A0;
-    margin-bottom:15px;
-    font-size:28px;
+    margin-bottom:20px;
 }
 
 .home-content p{
-    line-height:1.8;
-    margin-bottom:25px;
+    font-size:18px;
+    line-height:1.9;
+    max-width:650px;
+    margin-bottom:30px;
 }
 
-/* BUTTON */
+/* =========================
+   BUTTON
+========================= */
 .btn-box a{
     display:inline-block;
-    padding:12px 30px;
+
+    padding:14px 35px;
+
     background:#7286A0;
     color:#fff;
-    border-radius:30px;
+
+    border-radius:40px;
     text-decoration:none;
-    transition:0.3s;
+    font-size:16px;
+    font-weight:bold;
+
+    transition:.3s;
 }
 
 .btn-box a:hover{
     background:#FCB0B3;
-    transform:translateY(-3px);
+    transform:translateY(-4px);
 }
 
-/* SOCIAL ICONS */
+/* =========================
+   SOCIAL ICONS
+========================= */
 .social-icons{
     display:flex;
     gap:15px;
-    margin-top:30px;
+    margin-top:35px;
 }
 
 .social-icons a{
-    width:45px;
-    height:45px;
+    width:50px;
+    height:50px;
+
     display:flex;
     justify-content:center;
     align-items:center;
-    border-radius:50%;
+
     background:#fff;
     color:#7286A0;
+
+    border-radius:50%;
     text-decoration:none;
-    font-size:22px;
-    transition:0.3s;
+
+    font-size:24px;
+
+    transition:.3s;
 }
 
 .social-icons a:hover{
     background:#7286A0;
     color:#fff;
+
+    transform:translateY(-5px);
 }
 
-/* IMAGE */
+/* =========================
+   IMAGE
+========================= */
 .home-img{
     flex:1;
-    text-align:center;
-    min-width:280px;
+    display:flex;
+    justify-content:center;
 }
 
 .home-img img{
-    width:100%;
-    max-width:380px;
-    border-radius:25px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    width:420px;
+    max-width:100%;
+
+    border-radius:30px;
+
+    object-fit:cover;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.25);
+
+    transition:.4s;
 }
 
-/* SECTIONS */
+.home-img img:hover{
+    transform:scale(1.03);
+}
+
+/* =========================
+   SECTIONS
+========================= */
 .about,
 .projects,
 .contact{
-    padding:90px 10%;
+    padding:100px 8%;
     text-align:center;
 }
 
@@ -163,65 +210,85 @@ body{
 .about h2,
 .projects h2,
 .contact h2{
-    font-size:40px;
-    margin-bottom:20px;
+    font-size:45px;
+    margin-bottom:25px;
 }
 
-/* ABOUT */
+/* =========================
+   ABOUT
+========================= */
 .about p{
-    max-width:800px;
+    max-width:850px;
     margin:auto;
-    line-height:1.8;
+
+    font-size:18px;
+    line-height:1.9;
 }
 
-/* PROJECTS */
+/* =========================
+   PROJECTS
+========================= */
 .project-container{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:25px;
-    margin-top:40px;
+
+    gap:30px;
+    margin-top:50px;
 }
 
 .project-box{
-    width:320px;
-    background:rgba(255,255,255,0.2);
-    padding:30px;
-    border-radius:20px;
+    width:340px;
+
+    background:rgba(255,255,255,0.18);
+
+    padding:35px;
+    border-radius:25px;
+
     backdrop-filter:blur(10px);
-    transition:0.3s;
+
+    transition:.4s;
 }
 
 .project-box:hover{
-    transform:translateY(-8px);
+    transform:translateY(-10px);
 }
 
 .project-box h3{
+    font-size:25px;
     margin-bottom:15px;
 }
 
 .project-box p{
-    line-height:1.7;
-    margin-bottom:20px;
+    line-height:1.8;
+    margin-bottom:25px;
+    font-size:16px;
 }
 
 /* PROJECT BUTTON */
 .project-btn{
     display:inline-block;
-    padding:10px 20px;
+
+    padding:12px 24px;
+
     background:#7286A0;
     color:#fff;
+
     border-radius:30px;
     text-decoration:none;
-    transition:0.3s;
+
+    transition:.3s;
 }
 
 .project-btn:hover{
     background:#FCB0B3;
 }
 
-/* CONTACT */
+/* =========================
+   CONTACT
+========================= */
 .contact p{
+    font-size:18px;
     margin-top:15px;
 }
 
@@ -229,80 +296,109 @@ body{
 .contact-icons{
     display:flex;
     justify-content:center;
-    gap:15px;
-    margin-top:30px;
+    gap:18px;
+
+    margin-top:35px;
 }
 
 .contact-icons a{
-    width:50px;
-    height:50px;
-    background:#fff;
-    color:#7286A0;
-    border-radius:50%;
+    width:55px;
+    height:55px;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
+    background:#fff;
+    color:#7286A0;
+
+    border-radius:50%;
     text-decoration:none;
-    font-size:24px;
-    transition:0.3s;
+
+    font-size:26px;
+
+    transition:.3s;
 }
 
 .contact-icons a:hover{
     background:#7286A0;
     color:#fff;
+
+    transform:translateY(-5px);
 }
 
-/* RESPONSIVE */
-@media (max-width: 991px){
+/* =========================
+   TABLET
+========================= */
+@media (max-width:991px){
 
     .home{
         flex-direction:column-reverse;
         text-align:center;
-    }
-
-    .navbar{
-        gap:12px;
+        gap:60px;
     }
 
     .home-content h1{
-        font-size:42px;
+        font-size:50px;
+    }
+
+    .home-img img{
+        width:340px;
+    }
+
+    .social-icons{
+        justify-content:center;
+    }
+
+    .btn-box{
+        display:flex;
+        justify-content:center;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width:768px){
+
+    .header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .navbar{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .home{
+        padding:160px 6% 80px;
+    }
+
+    .home-content h1{
+        font-size:38px;
     }
 
     .home-content h3{
         font-size:24px;
     }
 
-}
-
-@media (max-width: 600px){
-
-    .header{
-        padding:15px 5%;
-        flex-direction:column;
-        gap:10px;
+    .home-content p{
+        font-size:16px;
     }
 
-    .navbar{
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    .home{
-        padding:150px 5% 60px;
-    }
-
-    .home-content h1{
-        font-size:34px;
+    .home-img img{
+        width:280px;
     }
 
     .about h2,
     .projects h2,
     .contact h2{
-        font-size:32px;
+        font-size:35px;
     }
 
     .project-box{
         width:100%;
     }
-
 }

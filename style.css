@@ -308,14 +308,17 @@ body{
     align-items:center;
 }
 
-/* DISABLE SCROLL INSIDE PDF PREVIEW */
-.certificate-box object{
-    pointer-events:none;
+/* PNG IMAGE INSIDE CARD */
+.certificate-box img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
     border-radius:4px;
     display:block;
+    pointer-events:none;
 }
 
-/* FAN / SPREAD EFFECT — different rotation per card */
+/* FAN / SPREAD EFFECT */
 .certificate-box:nth-child(1){
     width:200px;
     transform:rotate(-8deg) translateY(20px);
@@ -349,7 +352,7 @@ body{
     box-shadow:0 20px 40px rgba(0,0,0,0.3);
 }
 
-/* VIEW PDF LINK */
+/* VIEW FULL LINK */
 .certificate-box a{
     display:block;
     margin-top:10px;

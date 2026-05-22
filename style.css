@@ -326,7 +326,7 @@ body{
 /* MAIN TITLE */
 .services h2{
     font-size:64px;
-    color:#5E8CA0;
+    color:#ffffff;
     margin-bottom:70px;
     font-weight:900;
     text-transform:uppercase;
@@ -345,15 +345,17 @@ body{
     width:320px;
     min-height:360px;
 
-    background:#89AFC0;
+    background:rgba(255,255,255,0.85);
 
     padding:40px 30px;
-
+    border-radius:20px;
     text-align:left;
 
     position:relative;
-
     overflow:hidden;
+
+    backdrop-filter:blur(10px);
+    box-shadow:0 8px 30px rgba(0,0,0,0.12);
 
     transition:.3s;
 }
@@ -361,36 +363,21 @@ body{
 /* HOVER */
 .service-box:hover{
     transform:translateY(-10px);
-}
-
-/* LARGE BACKGROUND TEXT */
-.service-box::before{
-    content:"DESIGN";
-
-    position:absolute;
-    top:20px;
-    right:-40px;
-
-    font-size:80px;
-    font-weight:900;
-
-    color:rgba(255,255,255,0.15);
-
-    transform:rotate(-15deg);
+    box-shadow:0 15px 40px rgba(0,0,0,0.18);
 }
 
 /* ICON */
 .service-box i{
     font-size:42px;
-    color:#fff;
+    color:#7286A0;
     margin-bottom:25px;
     display:block;
 }
 
 /* TITLE */
 .service-box h3{
-    font-size:36px;
-    color:#fff;
+    font-size:28px;
+    color:#3d5a6e;
     margin-bottom:20px;
     font-weight:900;
     text-transform:uppercase;
@@ -398,9 +385,9 @@ body{
 
 /* TEXT */
 .service-box p{
-    font-size:22px;
+    font-size:18px;
     line-height:1.8;
-    color:#f5f5f5;
+    color:#555;
 }
 /* =========================
    CONTACT

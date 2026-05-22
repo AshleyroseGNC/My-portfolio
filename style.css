@@ -310,12 +310,11 @@ body{
 
 /* PNG IMAGE INSIDE CARD */
 .certificate-box img{
-    width:100%;
-    height:200px;
-    object-fit:cover;
-    border-radius:4px;
-    display:block;
-    pointer-events:none;
+   width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 4px;
+pointer-events: none;
 }
 
 /* FAN / SPREAD EFFECT */

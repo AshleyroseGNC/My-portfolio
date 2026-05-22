@@ -289,7 +289,7 @@ body{
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    gap:10px;
+    gap:30px;
     margin-top:50px;
     padding:20px 0 60px;
 }
@@ -318,36 +318,20 @@ body{
     pointer-events:none;
 }
 
-/* FAN / SPREAD EFFECT */
+/* STRAIGHT — no rotation, 2 cards lang */
 .certificate-box:nth-child(1){
-    width:200px;
-    transform:rotate(-8deg) translateY(20px);
+    width:220px;
+    transform:none;
 }
 
 .certificate-box:nth-child(2){
-    width:180px;
-    transform:rotate(-4deg) translateY(10px);
+    width:220px;
+    transform:none;
 }
 
-.certificate-box:nth-child(3){
-    width:230px;
-    transform:rotate(0deg) translateY(0px);
-    z-index:2;
-}
-
-.certificate-box:nth-child(4){
-    width:210px;
-    transform:rotate(4deg) translateY(10px);
-}
-
-.certificate-box:nth-child(5){
-    width:200px;
-    transform:rotate(8deg) translateY(20px);
-}
-
-/* HOVER — straighten and pop up */
+/* HOVER — pop up */
 .certificate-box:hover{
-    transform:translateY(-15px) rotate(0deg) scale(1.05);
+    transform:translateY(-15px) scale(1.05);
     z-index:10;
     box-shadow:0 20px 40px rgba(0,0,0,0.3);
 }

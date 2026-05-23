@@ -174,10 +174,10 @@ body{
 }
 
 .home-img img{
-    width:420px;
-    max-width:100%;
+    width:350px;
+    max-width:350%;
 
-    border-radius:30px;
+    border-radius:50px;
     box-shadow:0 15px 35px rgba(0,0,0,0.25);
 }
 
@@ -500,7 +500,8 @@ body{
     }
 
     .home-img img{
-        width:300px;
+        width:280px;
+       height:280px;
     }
 
     .project-box,

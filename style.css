@@ -13,7 +13,7 @@
    BODY
 ========================= */
 body {
-    background: linear-gradient(135deg, #1a3a5c, #2e6da4, #5b9bd5);
+    background:linear-gradient(135deg, #1a3a5c, #2e6da4, #5b9bd5);
     color: #fff;
     overflow-x: hidden;
 }
@@ -153,9 +153,9 @@ body {
 .home-img img {
     width: 350px;
     height: 350px;
-    border-radius: 50%;          /* ← CIRCLE FIX */
+    border-radius: 50%;
     object-fit: cover;
-    object-position: center top; /* shows face, not chest */
+    object-position: center top;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2),
                 0 15px 35px rgba(0, 0, 0, 0.35);
 }
@@ -489,8 +489,8 @@ body {
 
     .project-box,
     .certificate-box {
-        width: 100% !important;
-        transform: none !important;
+        width: 100%;
+        transform: none;
     }
 
     .service-box {

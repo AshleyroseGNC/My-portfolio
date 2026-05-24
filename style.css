@@ -13,7 +13,7 @@
    BODY
 ========================= */
 body {
-    background:linear-gradient(135deg, #1a3a5c, #2e6da4, #5b9bd5);
+    background: linear-gradient(135deg, #1a3a5c, #2e6da4, #5b9bd5);
     color: #fff;
     overflow-x: hidden;
 }
@@ -486,7 +486,6 @@ body {
         font-size: 16px;
     }
 
-    /* FIXED: size goes on the container, NOT the img */
     .home-img {
         width: 260px;
         height: 260px;

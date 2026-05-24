@@ -492,15 +492,17 @@ body {
         height: 260px;
     }
 
-  .about h2,
-.projects h2,
-.certificates h2,
-.contact h2 {
-    font-size: 38px;
+ .about,
+.projects,
+.certificates,
+.contact {
+    padding: 80px 8%;
+    text-align: center;
 }
 
-.services h2 {
-    font-size: 38px;
+.services {
+    padding: 80px 8%;
+    text-align: center;
 }
 
 

@@ -225,11 +225,11 @@ body {
     justify-content: space-between;
     gap: 2rem;
     padding: 2rem 0;
-    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 
 .project-item:last-child {
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 
 .project-left {
@@ -247,18 +247,18 @@ body {
 }
 
 .project-left h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     margin: 0 0 0.7rem;
 }
 
 .project-left p {
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
     line-height: 1.65;
     margin: 0 0 1rem;
-    max-width: 340px;
+    max-width: 380px;
 }
 
 .project-link {

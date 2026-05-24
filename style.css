@@ -72,7 +72,6 @@ body {
     flex-wrap: wrap;
 }
 
-/* HOME CONTENT — left side */
 .home-content {
     flex: 1;
     min-width: 300px;
@@ -142,7 +141,7 @@ body {
     color: #fff;
 }
 
-/* HOME IMAGE — right side, CIRCLE */
+/* HOME IMAGE */
 .home-img {
     flex-shrink: 0;
     display: flex;
@@ -411,6 +410,9 @@ body {
     color: #fff;
 }
 
+/* =========================
+   FOOTER
+========================= */
 .footer {
     text-align: center;
     padding: 30px 8%;
@@ -424,6 +426,7 @@ body {
     font-size: 18px;
     vertical-align: middle;
 }
+
 /* =========================
    RESPONSIVE
 ========================= */
@@ -493,11 +496,13 @@ body {
     .projects h2,
     .certificates h2,
     .contact h2 {
-        font-size: 38px;
+        padding: 60pc 8%;
+       text-align: center;
     }
 
     .services h2 {
-        font-size: 38px;
+        padding: 60pc 8%;
+       text-align: center;
     }
 
     .project-box,

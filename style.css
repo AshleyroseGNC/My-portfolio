@@ -414,17 +414,11 @@ body {
    FOOTER
 ========================= */
 .footer {
+    background-color: #1a3a5c; /* o kung anong kulay ng footer mo */
     text-align: center;
-    padding: 30px 8%;
-    background: rgba(0, 0, 0, 0.2);
-    font-size: 16px;
-    line-height: 2;
-}
-
-.footer i {
-    margin-right: 8px;
-    font-size: 18px;
-    vertical-align: middle;
+    padding: 20px;
+    color: white;
+    width: 100%;
 }
 
 /* =========================

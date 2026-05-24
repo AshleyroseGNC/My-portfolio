@@ -492,18 +492,18 @@ body {
         height: 260px;
     }
 
-    .about h2,
-    .projects h2,
-    .certificates h2,
-    .contact h2 {
-        padding: 60pc 8%;
-       text-align: center;
-    }
+  .about h2,
+.projects h2,
+.certificates h2,
+.contact h2 {
+    font-size: 38px;
+}
 
-    .services h2 {
-        padding: 60pc 8%;
-       text-align: center;
-    }
+.services h2 {
+    font-size: 38px;
+}
+
+
 
     .project-box,
     .certificate-box {

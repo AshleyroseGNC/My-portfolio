@@ -196,52 +196,99 @@ body {
 /* =========================
    PROJECTS
 ========================= */
-.project-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 35px;
-    margin-top: 50px;
+.projects {
+    padding: 60px 9%;
 }
 
-.project-box {
-    width: 340px;
-    background: rgba(255, 255, 255, 0.18);
-    padding: 35px;
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-    transition: .3s;
+.projects-label {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    color: #a3b84a;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
 }
 
-.project-box:hover {
-    transform: translateY(-10px);
-}
-
-.project-box h3 {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-.project-box p {
-    font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 25px;
-}
-
-.project-btn {
-    display: inline-block;
-    padding: 14px 28px;
-    background: #2e6da4;
+.projects-heading {
+    font-size: 32px;
+    font-weight: 500;
     color: #fff;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-    transition: .3s;
+    margin: 0 0 2.5rem;
 }
 
-.project-btn:hover {
-    background: #5b9bd5;
+.projects-heading em {
+    font-style: italic;
+    color: #c5e04a;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.project-item:last-child {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.project-left {
+    flex: 1;
+    min-width: 0;
+}
+
+.project-num {
+    display: block;
+    font-size: 36px;
+    font-weight: 500;
+    color: #3a4a10;
+    line-height: 1;
+    margin-bottom: 0.3rem;
+}
+
+.project-left h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 0.7rem;
+}
+
+.project-left p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.65;
+    margin: 0 0 1rem;
+    max-width: 340px;
+}
+
+.project-link {
+    font-size: 13px;
+    color: #a3b84a;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-thumb {
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.thumb-figma {
+    background: linear-gradient(135deg, #0f4d4d 0%, #1a7a6e 100%);
+}
+
+.thumb-web {
+    background: linear-gradient(135deg, #0d1a3a 0%, #1a2f6e 100%);
+}
+
+.thumb-barangay {
+    background: linear-gradient(135deg, #3a1a00 0%, #7a3a00 100%);
 }
 
 /* =========================
